@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.coverage
+coverage.xml
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+.eslintcache
+.parcel-cache
+.turbo/
+.vite/
+*.log
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Docker
+*.pid
+postgres_data/
+
+# Build artifacts
+build/
+coverage/
+
+# Local overrides
+backend/.env
+frontend/.env
+
+# Frontend
+frontend/.next/
+frontend/.vercel/
+
+# Python byte-compiled
+**/__pycache__/
+
+# Alembic
+backend/alembic/versions/*.pyc
